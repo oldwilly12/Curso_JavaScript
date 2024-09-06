@@ -8,5 +8,7 @@ function calculateArea() {
     width = parseFloat(document.getElementById('width').value);
 
     let area = length * width;
-    document.getElementById('result').innerText = 'The area of the rectangle is: ${area}';
+    // for the string i needed to use `` to get the variable on the string is diferent to the single quote
+    
+    document.getElementById('result').innerText = `The area of the rectangle is: ${area}`;
    }
